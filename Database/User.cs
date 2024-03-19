@@ -11,20 +11,17 @@ namespace HospitalManagementSystem.Database
     {
         public User() { }
         
-        private int _id;
-        private string _name;
-        private string _surname;
-        private string _identification;
-        private string _GSM_No;
-        private string _password;
+        
 
-        public int id { get { return _id; } }
-        public string name { get { return _name; } }
-        public string surname { get { return _surname; } }
-        public string identification { get { return _identification; } }
-        public string GSM_No { get { return _GSM_No; } }
-        public string password { get { return _password; } }
+        public int Id { get; set; }
+        public string name { get; set; }
+        public string surname { get; set; }
+        public string identification { get; set; }
+        public string GSM_No { get; set; }
+        public string password { get; set; }
 
+        
+        }
 
     }
-}
+
